@@ -52,7 +52,14 @@
 		<table schema="" tableName="tb_order"></table>
 		<table schema="" tableName="tb_order_item"></table>
 		<table schema="" tableName="tb_order_shipping"></table>
-		<table schema="" tableName="tb_user"></table> -->
+		<table schema="" tableName="tb_user"></table>
+<table schema="" tableName="sys_org" mapperName="SysOrgDao"     enableCountByExample="false"
+            enableUpdateByExample="false"
+            enableDeleteByExample="false"
+            enableSelectByExample="false"
+            selectByExampleQueryId="false">
+		</table> 
+-->
 
 	</context>
 </generatorConfiguration>
